@@ -1,0 +1,148 @@
+/* Black font */
+@font-face {
+  font-family: "KumbhSans";
+  src: url("../fonts/KumbhSans-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+/* Bold font */
+@font-face {
+  font-family: "KumbhSans";
+  src: url("../fonts/KumbhSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+/* ExtraBold font */
+@font-face {
+  font-family: "KumbhSans";
+  src: url("../fonts/KumbhSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+/* Light font */
+@font-face {
+  font-family: "KumbhSans";
+  src: url("../fonts/KumbhSans-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+/* Medium font */
+@font-face {
+  font-family: "KumbhSans";
+  src: url("../fonts/KumbhSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+/* Regular font */
+@font-face {
+  font-family: "KumbhSans";
+  src: url("../fonts/KumbhSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+/* SemiBold font */
+@font-face {
+  font-family: "KumbhSans";
+  src: url("../fonts/KumbhSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+/* Thin font */
+@font-face {
+  font-family: "KumbhSans";
+  src: url("../fonts/KumbhSans-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "KumbhSans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+}
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+button {
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.primary_btn {
+  width: 141px;
+  background: #5964e0;
+  color: #fff;
+}
+.primary_btn:hover {
+  background: #939bf4;
+}
+.secondary_btn {
+  width: 147px;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.p10 {
+  padding: 0px 10px;
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 689px;
+  }
+  .p10 {
+    padding: 0px 24px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    max-width: 327px;
+  }
+  .p10 {
+    padding: 0px 10px;
+  }
+}

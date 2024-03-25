@@ -1,0 +1,116 @@
+body.darkTheme {
+  background: #121721;
+}
+body.defaultTheme {
+  background: #f4f6f8;
+}
+.search_bar .container.darkTheme,
+main.darkTheme .card,
+.company_card.darkTheme .container,
+.job_details.darkTheme .container,
+.apply.darkTheme,
+.modal_container.darkTheme > div  {
+  background: #19202d;
+}
+.search_bar .container.defaultTheme,
+main.defaultTheme .card,
+.company_card.defaultTheme .container,
+.job_details.defaultTheme .container,
+.apply.defaultTheme,
+.modal_container.defaultTheme > div  {
+  background: #fff;
+}
+.search_bar .container.darkTheme > div:nth-child(1),
+.search_bar .container.darkTheme > div:nth-child(2) {
+  border-right: 1px solid #6e8098;
+}
+.search_bar .container.defaultTheme > div:nth-child(1),
+.search_bar .container.defaultTheme > div:nth-child(2) {
+  border-right: 1px solid rgba(110, 128, 152, 0.2);
+}
+.search_bar .container.darkTheme .filter::after {
+  background: url("../images/icons/mb-icon-filter-white.svg");
+}
+.search_bar .container.defaultTheme .filter::after {
+  background: url("../images/icons/mb-icon-filter.svg");
+}
+main.darkTheme .position,
+.search.darkTheme input::placeholder,
+.location.darkTheme input::placeholder,
+.checkbox.darkTheme label,
+.company_card.darkTheme .company_info h2,
+.job_details.darkTheme .position,
+.job_details.darkTheme h3,
+.apply.darkTheme h3,
+.no_result.darkTheme {
+  color: #fff;
+}
+main.defaultTheme .position,
+.checkbox.defaultTheme label,
+.company_card.defaultTheme .company_info h2,
+.job_details.defaultTheme .position,
+.job_details.defaultTheme h3,
+.apply.defaultTheme h3,
+.no_result.defaultTheme {
+  color: #19202d;
+}
+.search.darkTheme input,
+.location.darkTheme input {
+  background: #19202d;
+  color: #fff;
+}
+.search.defaultTheme input,
+.location.defaultTheme input {
+  background: #fff;
+  color: #19202d;
+}
+.search.defaultTheme input::placeholder,
+.location.defaultTheme input::placeholder {
+  color: rgba(25, 32, 45, 0.5);
+}
+.checkbox.darkTheme .check {
+  background: #313743;
+}
+.checkbox.defaultTheme .check {
+  background: rgba(25, 32, 45, 0.1);
+}
+.checkbox.darkTheme .check:hover {
+  background: rgb(49, 55, 67, 0.5);
+}
+.checkbox.defaultTheme .check:hover {
+  background: rgba(25, 32, 45, 0.25);
+}
+.checkbox.darkTheme .check-selected,
+.checkbox.defaultTheme .check-selected {
+  background: #5964e0;
+}
+.checkbox.darkTheme .check-selected:hover,
+.checkbox.defaultTheme .check-selected:hover {
+  background: #5a65da;
+}
+main.darkTheme .position:hover {
+  color: #ededed;
+}
+main.defaultTheme .position:hover
+.job_details.defaultTheme p,
+.job_details.defaultTheme li {
+  color: #6e8098;
+}
+.company_card.darkTheme .secondary_btn {
+  background: #303642;
+  color: #fff;
+}
+.company_card.defaultTheme .secondary_btn {
+  background: rgba(89, 100, 224, 0.1);
+  color: #5964e0;
+}
+.company_card.darkTheme .secondary_btn:hover {
+  background: rgba(48, 54, 66, 0.35);
+}
+.company_card.defaultTheme .secondary_btn:hover {
+  background: rgba(89, 100, 224, 0.35);
+}
+.job_details.darkTheme p,
+.job_details.darkTheme li {
+  color: #9daec2;
+}
